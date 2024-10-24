@@ -5,8 +5,8 @@ import java.util.Collections;
 
 public class RotateArray {
     public static void main(String[] args) {
-        int[] a={1, 2, 3, 4, 5 ,6};
-        rotate2(a, 3);
+        int[] a={1, 2, 3, 4, 5 ,6, 7};
+        rotate2(a, 2);
 //        reverse(a, 3, a.length-1);
         System.out.println(Arrays.toString(a));
     }

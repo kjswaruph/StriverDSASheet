@@ -10,7 +10,6 @@ public class SecondLargestElement {
         }
         for(int i = 0; i<arr.length; i++){
             if(arr[i]>max){
-                int temp = max;
                 max = arr[i];
                 secMax = max;
             }
